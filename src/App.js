@@ -7,6 +7,7 @@ import Divestment from "./pages/Divestment.js";
 // components
 import Header from "./components/header.js";
 import "./App.css";
+import "./styles/index.css"
 //extensions
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
