@@ -133,7 +133,7 @@ class Header extends Component {
               to="/contact"
               exact
               activeClassName="link-active"
-              className="link-inactive lowercase"
+              className="link-inactive hover:-translate-y-1 lowercase"
             >
               Contact
             </Link>

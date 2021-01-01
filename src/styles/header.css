@@ -48,6 +48,7 @@ a {
 }
 .link-inactive:hover {
     background-color: rgba(42,186,240, 1);
+    transform: translateY(-0.25rem);
 }
 .link-active {
   margin: auto;
@@ -62,6 +63,7 @@ a {
 }
 .link-active:hover {
     background-color:rgba(129,204,39, 1);
+    transform: translateY(-0.25rem);
 }
 .icon-button {
   --button-size: calc(var(--nav-size) * 0.5);
@@ -95,6 +97,7 @@ a {
   border-radius: var(--border-radius);
   padding: 1rem;
   overflow: hidden;
+  z-index: 10;
 }
 .menu-item {
   height: 50px;

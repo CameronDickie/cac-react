@@ -7,7 +7,7 @@ class Video extends Component {
       <div className="min-h-full inline-block relative justify-items-center content-center">
         <div className="absolute group left-1/4 top-1/2">
           <div className="relative -left-1/4 -top-1/2 bg-green-300 bg-opacity-25 hover:bg-blue-300 rounded-lg hover:bg-opacity-75 p-2">
-            <button className="py-1 prod-title">
+            <button className="py-1 text-left prod-title">
                 <p class="xl:text-2xl lg:text-2xl md:text-xl sm:text-lg xs:text-md uppercase text-black font-bold">We require your help to make our voices heard</p>
                 <p class="uppercase text-sm text-gray-700">Sign our open letter!</p>
             </button>

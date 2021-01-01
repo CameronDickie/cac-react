@@ -6,6 +6,7 @@ import Contact from "./pages/Contact.js";
 import Divestment from "./pages/Divestment.js";
 // components
 import Header from "./components/header.js";
+import Footer from "./components/footer.js";
 import "./App.css";
 import "./styles/index.css"
 //extensions
@@ -22,6 +23,7 @@ class App extends Component {
           <Route path="/contact" component={Contact} />
           <Route path="/divestment" component={Divestment} />
         </Switch>
+        <Footer />
       </Router>
     );
   }
