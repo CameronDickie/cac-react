@@ -29108,20 +29108,6 @@ video {
   }
 }
 
-@keyframes strangespin {
-  0%, 100% {
-    transform: rotate(360deg);
-  }
-
-  25% {
-    transform: rotate(162deg);
-  }
-
-  75% {
-    transform: rotate(198deg);
-  }
-}
-
 .animate-none {
   animation: none;
 }

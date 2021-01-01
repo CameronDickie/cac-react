@@ -1,9 +1,13 @@
 import { Component } from "react";
 
+import Video from "../components/video.js";
+
+
 class Home extends Component {
   render() {
     return (
       <div className="home">
+        <Video></Video>
         <h1 className="font-sans font-bold">
           This is the content that will be going on the homepage lol
         </h1>

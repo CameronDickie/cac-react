@@ -146,7 +146,7 @@ class Header extends Component {
               Divestment
             </Link>
           </div>
-          <div class="flex lg:hidden">
+          <div class="flex lg:hidden ml-auto">
             <NavItem icon={<MenuIco />}>
               {/* Dropdown goes here */}
               <DropdownMenu />
