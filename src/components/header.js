@@ -117,7 +117,7 @@ class Header extends Component {
               to="/"
               exact
               activeClassName="link-active"
-              className="link-inactive lowercase"
+              className="link-inactive outline-none lowercase"
             >
               Home
             </Link>
@@ -125,7 +125,7 @@ class Header extends Component {
               to="/about"
               exact
               activeClassName="link-active"
-              className="link-inactive lowercase"
+              className="link-inactive outline-none lowercase"
             >
               About
             </Link>
@@ -133,7 +133,7 @@ class Header extends Component {
               to="/contact"
               exact
               activeClassName="link-active"
-              className="link-inactive hover:-translate-y-1 lowercase"
+              className="link-inactive outline-none lowercase"
             >
               Contact
             </Link>
@@ -141,7 +141,7 @@ class Header extends Component {
               to="/divestment"
               exact
               activeClassName="link-active"
-              className="link-inactive lowercase"
+              className="link-inactive outline-none lowercase"
             >
               Divestment
             </Link>
