@@ -1,5 +1,6 @@
 import { Component } from "react";
 import emailjs from "emailjs-com";
+import Involved from "../components/involved.js";
 
 function sendEmail(e) {
   e.preventDefault();
@@ -127,6 +128,9 @@ class Contact extends Component {
             <div className="md:w-2/3"></div>
           </div>
         </form>
+        <div className="flex p-4 justify-center">
+        <Involved/>
+        </div>
       </div>
     );
   }
