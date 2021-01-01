@@ -109,7 +109,7 @@ class Header extends Component {
       <div>
         <Navbar>
           <Link to="/" className="flex w-10 py-3">
-            <img className="" src={logo}></img>
+            <img className="" alt="CAC" src={logo}></img>
           </Link>
           <TextContents></TextContents>
           <div className="hidden ml-auto lg:inline-flex">

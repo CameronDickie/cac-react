@@ -3,9 +3,8 @@ import emailjs from "emailjs-com";
 
 function sendEmail(e) {
   e.preventDefault();
-  {
-    /* we need to make sure that none of the fields are empty and notify the user accordingly*/
-  }
+  /* we need to make sure that none of the fields are empty and notify the user accordingly*/
+
   let a = document.getElementById("address");
   let n = document.getElementById("name");
   let s = document.getElementById("subject");
@@ -26,7 +25,7 @@ function sendEmail(e) {
       (result) => {
         console.log(result.text);
         let r = document.getElementById("reminder");
-        r.className = "text-red-500 text-xs italic hidden pb-4"
+        r.className = "text-red-500 text-xs italic hidden pb-4";
       },
       (error) => {
         console.log(error.text);
