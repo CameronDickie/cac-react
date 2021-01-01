@@ -112,7 +112,7 @@ class Header extends Component {
             <img className="" src={logo}></img>
           </Link>
           <TextContents></TextContents>
-          <div class="hidden ml-auto lg:inline-flex">
+          <div className="hidden ml-auto lg:inline-flex">
             <Link
               to="/"
               exact
@@ -146,14 +146,14 @@ class Header extends Component {
               Divestment
             </Link>
           </div>
-          <div class="flex lg:hidden ml-auto">
+          <div className="flex lg:hidden ml-auto">
             <NavItem icon={<MenuIco />}>
               {/* Dropdown goes here */}
               <DropdownMenu />
             </NavItem>
           </div>
         </Navbar>
-        <div class="bg-gray-200 h-0.5 w-full"></div>
+        <div className="bg-gray-200 h-0.5 w-full"></div>
       </div>
     );
   }
