@@ -1,6 +1,6 @@
 {
   "name": "cac",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@mdi/js": "^5.8.55",
@@ -27,6 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "launch": "react-scripts build && git add . && git commit && git push -u origin master && firebase deploy",
+    "git": "git add . && git commit && git push -u origin master",
+    "launch:local": "react-scripts build && git add . && git commit && git push -u origin master && firebase serve",
     "build:css": "postcss src/styles/tailwind.css -o src/styles/main.css",
     "build:watch": "postcss src/styles/tailwind.css -o src/styles/main.css --watch"
   },
